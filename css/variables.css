@@ -1,0 +1,13 @@
+:root {
+  --primary: #0066ff;
+  --dark: #333;
+  --light: #f4f4f4;
+  --white: #fff;
+
+  --font-main: "Arial", sans-serif;
+  --font-heading: "Poppins", sans-serif;
+
+  --max-width: 1100px;
+
+  --transition: 0.3s ease;
+}

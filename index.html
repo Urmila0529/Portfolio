@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
 
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- JS -->
+  <script defer src="js/navigation.js"></script>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container">
+      <div class="logo">MyPortfolio</div>
+
+      <button class="menu-toggle" aria-label="Open Menu">☰</button>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <h1>Hello, Urmila Dhole</h1>
+      <p>A JAVA Developer </p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about section">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="C:/Users/Urmila/Downloads/UD-old-logo.png" alt="Profile Picture">
+
+        <div>
+          <p>
+            I’m a passionate JAVA developer with experience in creating
+            responsive and visually appealing applications.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="skills section">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML5</li>
+        <li>CSS3 / Flexbox / Grid</li>
+        <li>JavaScript</li>
+        <li>Git / GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="projects section">
+    <div class="container">
+      <h2>Projects</h2>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="images/project1.jpg" alt="Project 1">
+          <h3>E-commerce website</h3>
+          <p>E-commerce platform with user authentication, product listings, and shopping cart functionality.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <h2>Contact Me</h2>
+
+      <form aria-label="Contact Form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 MyPortfolio | All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

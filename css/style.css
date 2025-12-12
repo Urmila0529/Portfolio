@@ -1,0 +1,165 @@
+/* GLOBAL */
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  color: var(--dark);
+  background: var(--light);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+}
+
+/* Container */
+.container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* HEADER */
+header {
+  background: var(--white);
+  padding: 15px 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--dark);
+  transition: var(--transition);
+}
+
+nav a:hover {
+  color: var(--primary);
+}
+
+/* Hamburger Button Hidden by Default */
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 150px 20px;
+  background: var(--white);
+}
+
+.hero .btn {
+  padding: 12px 25px;
+  background: var(--primary);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: var(--transition);
+}
+
+.hero .btn:hover {
+  opacity: 0.8;
+}
+
+/* ABOUT */
+.about-content {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.about img {
+  width: 180px;
+  border-radius: 10px;
+}
+
+/* SKILLS */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skills-list li {
+  background: var(--white);
+  padding: 10px 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* PROJECTS */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.project-card {
+  background: var(--white);
+  padding: 20px;
+  border-radius: 12px;
+  transition: var(--transition);
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* CONTACT */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form input,
+form textarea {
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: 2px solid var(--primary);
+}
+
+form button {
+  padding: 12px 25px;
+  background: var(--primary);
+  color: var(--white);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: var(--dark);
+  color: var(--white);
+}
