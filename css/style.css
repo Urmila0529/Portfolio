@@ -62,7 +62,7 @@ nav a:hover {
 /* HERO */
 .hero {
   text-align: center;
-  padding: 150px 20px;
+  padding: 50px 20px;
   background: var(--white);
 }
 
@@ -87,7 +87,7 @@ nav a:hover {
 }
 
 .about img {
-  width: 180px;
+  width: 100px;
   border-radius: 10px;
 }
 
@@ -124,7 +124,7 @@ nav a:hover {
 }
 
 .project-card img {
-  width: 100%;
+  width: 60%;
   border-radius: 10px;
 }
 
